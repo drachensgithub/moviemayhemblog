@@ -1,0 +1,162 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Container for centering content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #444;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #e5533c;
+}
+
+/* Featured Reviews Section */
+.featured-reviews {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.featured-reviews h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 48%;
+    text-align: center;
+    padding: 20px;
+}
+
+.review-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.review-card h3 {
+    font-size: 1.8rem;
+    margin-top: 15px;
+}
+
+.review-card p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.review-card .review-summary {
+    font-size: 1rem;
+    color: #666;
+    margin: 15px 0;
+}
+
+.review-card .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.review-card .btn:hover {
+    background-color: #444;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .socials a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .socials a:hover {
+    text-decoration: underline;
+}
